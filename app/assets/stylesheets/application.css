@@ -13,3 +13,48 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  padding: 1rem;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+p:first-of-type{
+  padding-bottom: 0.75rem;
+}
+
+.btn{
+  background-color: #337AB7;
+}
+
+.link a {
+  text-decoration: none;
+  color: #337AB7;
+}
+
+.card-answer{
+  border-left: 0.5rem solid #DDDDDD;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.coach{
+  background-color: #FFFFE1;
+}
+
+#question, #answer{
+  width: 50%;
+  margin: 0 auto;
+}
+
+#form{
+  display: flex;
+}
